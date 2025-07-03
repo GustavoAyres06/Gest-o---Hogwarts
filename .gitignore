@@ -52,7 +52,7 @@ Desktop.ini
 .docker/
 docker-compose.override.yml
 
-# Uploads e armazenamento (caso existam)
+# Uploads e armazenamento 
 uploads/
 storage/
 cache/
