@@ -1,0 +1,19 @@
+
+{
+    "name": "daniel/php-poo-gestao-hogwarts",
+    "type": "library",
+    "description": "PHP POO Skeleton is a base project used in Object-Oriented Programming (OOP) classes for undergraduate program in Systems Analysis and Development, Computer Science and Software Engineering.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Stabile",
+            "email": "danielstabile123@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
