@@ -1,0 +1,58 @@
+# Composer
+/vendor/
+composer.phar
+*.lock
+
+# Node.js
+/node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs e arquivos temporários
+*.log
+*.cache
+*.tmp
+*.swp
+*~
+.cache/
+logs/
+coverage/
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# IDEs e editores
+/.idea/
+/.vscode/
+/nbproject/
+/nbproject/private/
+/*.sublime-project
+/*.sublime-workspace
+/.project
+/.buildpath
+/.settings/
+
+# Sistema operacional
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+Desktop.ini
+
+# Build e frontend
+/public/build/
+/dist/
+/build/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Uploads e armazenamento (caso existam)
+uploads/
+storage/
+cache/
